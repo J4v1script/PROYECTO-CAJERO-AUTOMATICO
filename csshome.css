@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(18, 18, 199),black);
+    }
+
+.contenedor{
+    margin: 70px auto ;
+    width: 800px;
+    padding: 30px;
+    background: rgba(0,0,0,.4);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+
+}
+
+h1{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+
+.contenedor .elemento label{
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size:larger;
+    
+
+}
+.contenedor .elemento input{
+    
+    padding: 10px;
+    color: whitesmoke;
+    background: transparent;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size:larger;
+    
+    
+    
+
+}
+.contenedor .elemento input[type="submit"]{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-size: large; 
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+    
+}
+
+input:invalid{
+    border: 3px dashed red;
+}
+

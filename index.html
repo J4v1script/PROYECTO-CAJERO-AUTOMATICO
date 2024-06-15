@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido a tu cajero automático</title>
+  <link href="/cssindex.css" rel="stylesheet" />
+  <script src="/scriptindex.js" defer></script>
+  
+</head>
+<body>
+
+  <div class="contenedor">
+        <h2>LOGIN</h2>
+        <form  id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="usuario">Usuario:</label>
+                <br>
+                <input type="user" id="user" name="usuario" minlength="5" maxlength="30" autocomplete="off" required>
+            </div>
+
+            <div class="elemento">
+                <label for="password">Password:</label>
+                <br>    
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="elemento">
+                <input type="submit" value="Iniciar sesion" id="submit_buton">
+                <!-- <button type="submit" id="submit_buton" form="forma">Entrar</button>> -->
+                
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
+
+
+
