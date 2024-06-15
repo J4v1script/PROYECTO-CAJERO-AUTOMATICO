@@ -18,7 +18,6 @@ const accounts = [
 
 
 
-
 //  3 FUNCION VALIDADORA DE DATOS:
 
 function validation(e){
@@ -95,7 +94,7 @@ function loginSuccessfully(){
     console.log("Password desde local storage: "+ localStorage.getItem("password"));
     console.log("Balance desde local storage: "+ localStorage.getItem("balance"));
 
-    
+
 
     // REDIRECCION A PAGINA HOME SI LA VALIDACION ES CORRECTA:
      window.location.replace("home.html");
